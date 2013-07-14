@@ -25,7 +25,7 @@ Installation
 
 just copy the scripts into your XChat home directory and restart your client
 
-    `cp url_shortner.py ~/.xchat2/`
+    cp url_shortner.py ~/.xchat2/
    
 or use **plugins and scripts** window in Xchat->Window to load them
 

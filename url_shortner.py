@@ -24,7 +24,6 @@ STILL_WORKING = False
 def url_shortner(m):
     MAXIMUM_SHORTENING = False
     url = m.groups()[0][1:]
-    print 'whole: %s' % url
     if url[0] == '!':
         MAXIMUM_SHORTENING = True
         url = url[1:]
