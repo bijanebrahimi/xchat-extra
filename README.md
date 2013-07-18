@@ -20,6 +20,13 @@ to do that (after installing scripts, see below) you should place an exclamation
 
 you can tweak the script by changing the `SHORTENER_*` global values
 
+Bidirectional support
+-----------
+bidirectional support tries to detect bidi texts which includes Right-To-Left
+unicode characters. bidi-support does it by counting the RTL and LTR Characters
+and comparing the results. if the message was RTL, it adds a RLM unicode
+Character at the beginning of the message.
+
 Installation
 -----------
 
