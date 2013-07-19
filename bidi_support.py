@@ -9,6 +9,7 @@ __module_name__ = "BiDirectional Support"
 __module_version__ = "0.0.1"
 __module_description__ = "bidirectional support for xchat"
 
+import sys
 import xchat
 import unicodedata
 import codecs
